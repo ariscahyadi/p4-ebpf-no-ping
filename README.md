@@ -22,6 +22,6 @@ Reference: https://github.com/p4lang/p4c/tree/master/backends/ebpf
 ### Step 4: Try pinging yourself!
 Other machines should not be able to ping you ;)
 
-### Step 4: Removing the filter
+### Step 5: Removing the program from TC
 `tc filter delete dev IFACE egress`
 
