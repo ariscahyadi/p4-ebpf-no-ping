@@ -1,8 +1,11 @@
 # no-ping
 
-Reference: https://github.com/p4lang/p4c/tree/master/backends/ebpf
+This is a simple eBPF program written in P4, and compiled using the eBPF backend. </br>
+The program drops all incoming ICMP packets.
 
-## Compilation Steps
+## How to try this?
+
+Reference: https://github.com/p4lang/p4c/tree/master/backends/ebpf
 
 ### Step 1: Generating code from .p4 file
 `p4c-ebpf no_ping.p4 -o no_ping.c`
